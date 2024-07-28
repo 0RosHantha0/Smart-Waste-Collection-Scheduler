@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/main_img"
+    android:gravity="center">
+
+    <!-- TextView displaying logged-in username -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView displaying HomePage -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HomePage"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="48dp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/accountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Edit Account"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Waste Collection"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/viewSchedulesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="View Schedules"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/getRecommendationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Recommendation"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Logout"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

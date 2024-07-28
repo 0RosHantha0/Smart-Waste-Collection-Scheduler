@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/recommendedWasteTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recommended Waste Type"
+        android:textSize="18sp"
+        android:layout_centerInParent="true" />
+
+    <EditText
+        android:id="@+id/recommendedDayEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recommended Day"
+        android:textSize="18sp"
+        android:layout_below="@id/recommendedWasteTypeEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/recommendedTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recommended Time"
+        android:textSize="18sp"
+        android:layout_below="@id/recommendedDayEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/textViewPredictionResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prediction Result"
+        android:textSize="18sp"
+        android:layout_below="@id/recommendedTimeEditText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule as per the recommendation"
+        android:layout_below="@id/textViewPredictionResult"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

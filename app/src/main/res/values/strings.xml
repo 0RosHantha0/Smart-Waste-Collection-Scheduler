@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smart Waste Collection Scheduler</string>
+    <string-array name="waste_types">
+        <item>Non-Biodegradable</item>
+        <item>Biodegradable</item>
+    </string-array>
+</resources>

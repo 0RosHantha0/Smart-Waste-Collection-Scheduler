@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "479298738479",
+    "project_id": "wastecollectionscheduler",
+    "storage_bucket": "wastecollectionscheduler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479298738479:android:6e5f8e8bc73d3cb35869da",
+        "android_client_info": {
+          "package_name": "com.example.wastecollectionscheduler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_mEJpxL_Vv5zlh-jN38o5aMSZg_-Jxos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
